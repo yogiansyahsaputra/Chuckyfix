@@ -12,7 +12,7 @@ import time,random,sys,json,codecs,threading,glob,urllib,urllib2,urllib3,re,ast,
 
 nadya = LINETCR.LINE()
 #nadya.login(qr=True)
-nadya.login(token='EpS0tmC0ZTDhKOGiKDmb.fpzoe5O4f6/QVIFsn6/ZAW.l+ZRTs/GX3nkrHE/Y77Huo1aF65/TOARxV8ppihfEOQ=')
+nadya.login(token='Eq6uGDAkRm1lHK6Lc73a.nw/oU69KHV9HKsBewrbiMG.yfdsDxZEb/RClF1kAD2ZqBRL2XTHfYT8H3QvoGX9PSs=')
 nadya.loginResult()
 print "Nadya-Login Success\n\n=====[Sukses Login]====="
 
@@ -24,33 +24,33 @@ selfMessage ="""
 ╔═════════════════════════
 ║            ☆☞ S E L F ☜☆
 ╠═════════════════════════
-╠➩〘Hi〙
-╠➩〘Me〙
-╠➩〘Mymid〙
-╠➩〘Mid @〙
-╠➩〘SearchID: (ID LINE)〙
-╠➩〘Checkdate (DD/MM/YY)〙
-╠➩〘Kalender〙
-╠➩〘Steal contact〙
-╠➩〘Pp @〙
-╠➩〘Cover @〙
-╠➩〘Auto like〙
-╠➩〘Scbc Text〙
-╠➩〘Cbc Text〙
-╠➩〘Gbc Text〙
-╠➩〘Getbio @〙
-╠➩〘Getinfo @〙
-╠➩〘Getname @〙
-╠➩〘Getprofile @〙
-╠➩〘Getcontact @〙
-╠➩〘Getvid @〙
-╠➩〘Friendlist〙
-╠➩〘Micadd @〙
-╠➩〘Micdel @〙
-╠➩〘Miclist〙
+╠💘〘Hi〙
+╠💘〘Me〙
+╠💘〘Mymid〙
+╠💘〘Mid @〙
+╠💘〘SearchID: (ID LINE)〙
+╠💘〘Checkdate (DD/MM/YY)〙
+╠💘〘Kalender〙
+╠💘〘Steal contact〙
+╠💘〘Pp @〙
+╠💘〘Cover @〙
+╠💘〘Auto like〙
+╠💘〘Scbc Text〙
+╠💘〘Cbc Text〙
+╠💘〘Gbc Text〙
+╠💘〘Getbio @〙
+╠💘〘Getinfo @〙
+╠💘〘Getname @〙
+╠💘〘Getprofile @〙
+╠💘〘Getcontact @〙
+╠💘〘Getvid @〙
+╠💘〘Friendlist〙
+╠💘〘Micadd @〙
+╠💘〘Micdel @〙
+╠💘〘Miclist〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -58,19 +58,19 @@ botMessage ="""
 ╔═════════════════════════
 ║             ☆☞ B O T ☜☆
 ╠═════════════════════════
-╠➩〘Absen〙
-╠➩〘Respon〙
-╠➩〘Runtime〙
-╠➩〘Mycopy @〙
-╠➩〘Copycontact〙
-╠➩〘Mybackup〙
-╠➩〘Mybio (Text)〙
-╠➩〘Myname (Text)〙
-╠➩〘@bye〙
-╠➩〘Bot on/off〙
+╠💎〘Absen〙
+╠💎〘Respon〙
+╠💎〘Runtime〙
+╠💎〘Mycopy @〙
+╠💎〘Copycontact〙
+╠💎〘Mybackup〙
+╠💎〘Mybio (Text)〙
+╠💎〘Myname (Text)〙
+╠💎〘@bye〙
+╠💎〘Bot on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -78,40 +78,40 @@ mediaMessage ="""
 ╔═════════════════════════
 ║           ☆☞ M E D I A ☜☆
 ╠═════════════════════════
-╠➩〘Gift〙
-╠➩〘Gift1 @ s/d Gift10 @〙
-╠➩〘Giftbycontact〙
-╠➩〘Gif gore〙
-╠➩〘Google: (Text)〙
-╠➩〘Playstore NamaApp〙
-╠➩〘Fancytext: Text〙
-╠➩〘/musik Judul-Penyanyi〙
-╠➩〘/lirik Judul-Penyanyi〙
-╠➩〘/musrik Judul-Penyanyi〙
-╠➩〘/ig UrsnameInstagram〙
-╠➩〘Checkig UrsnameInstagram〙
-╠➩〘/apakah Text (Kerang Ajaib)〙
-╠➩〘/kapan Text (Kerang Ajaib)〙
-╠➩〘/hari Text (Kerang Ajaib)〙
-╠➩〘/berapa Text (Kerang Ajaib)〙
-╠➩〘/berapakah Text〙
-╠➩〘Youtubelink: Judul Video〙
-╠➩〘Youtubevideo: Judul Video〙
-╠➩〘Youtubesearch: Judul Video〙
-╠➩〘Image NamaGambar〙
-╠➩〘Say-id Text〙
-╠➩〘Say-en Text〙
-╠➩〘Say-jp Text〙
-╠➩〘Image NamaGambar〙
-╠➩〘Tr-id Text (Translate En Ke ID〙
-╠➩〘Tr-en Text (Translate ID Ke En〙
-╠➩〘Tr-th Text (Translate ID Ke Th〙
-╠➩〘Id@en Text (Translate ID Ke En〙
-╠➩〘Id@th Text (Translate ID Ke TH〙
-╠➩〘En@id Text (Translate En Ke ID〙
+╠😙〘Gift〙
+╠😙〘Gift1 @ s/d Gift10 @〙
+╠😙〘Giftbycontact〙
+╠😙〘Gif gore〙
+╠😙〘Google: (Text)〙
+╠😙〘Playstore NamaApp〙
+╠😙〘Fancytext: Text〙
+╠😙〘/musik Judul-Penyanyi〙
+╠😙〘/lirik Judul-Penyanyi〙
+╠😙〘/musrik Judul-Penyanyi〙
+╠😙〘/ig UrsnameInstagram〙
+╠😙〘Checkig UrsnameInstagram〙
+╠😙〘/apakah Text (Kerang Ajaib)〙
+╠😙〘/kapan Text (Kerang Ajaib)〙
+╠😙〘/hari Text (Kerang Ajaib)〙
+╠😙〘/berapa Text (Kerang Ajaib)〙
+╠😙〘/berapakah Text〙
+╠😙〘Youtubelink: Judul Video〙
+╠😙〘Youtubevideo: Judul Video〙
+╠😙〘Youtubesearch: Judul Video〙
+╠😙〘Image NamaGambar〙
+╠😙〘Say-id Text〙
+╠😙〘Say-en Text〙
+╠😙〘Say-jp Text〙
+╠😙〘Image NamaGambar〙
+╠😙〘Tr-id Text (Translate En Ke ID〙
+╠😙〘Tr-en Text (Translate ID Ke En〙
+╠😙〘Tr-th Text (Translate ID Ke Th〙
+╠😙〘Id@en Text (Translate ID Ke En〙
+╠😙〘Id@th Text (Translate ID Ke TH〙
+╠😙〘En@id Text (Translate En Ke ID〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -119,51 +119,51 @@ groupMessage ="""
 ╔═════════════════════════
 ║           ☆☞ G R O U P ☜☆
 ╠═════════════════════════
-╠➩〘Welcome〙
-╠➩〘Say welcome〙
-╠➩〘Invite creator〙
-╠➩〘Setview〙
-╠➩〘Viewseen〙
-╠➩〘Gn: (NamaGroup)〙
-╠➩〘Tag all〙
-╠➩〘Recover〙
-╠➩〘Cancel〙
-╠➩〘Cancelall〙
-╠➩〘Gcreator〙
-╠➩〘Ginfo〙
-╠➩〘Gurl〙
-╠➩〘List group〙
-╠➩〘Pict group: (NamaGroup)〙
-╠➩〘Spam: (Text)〙
-╠➩〘Add all〙
-╠➩〘Kick: (Mid)〙
-╠➩〘Invite: (Mid)〙
-╠➩〘Invite〙
-╠➩〘Memlist〙
-╠➩〘Getgroup image〙
-╠➩〘Urlgroup Image〙
+╠🎃〘Welcome〙
+╠🎃〘Say welcome〙
+╠🎃〘Invite creator〙
+╠🎃〘Setview〙
+╠🎃〘Viewseen〙
+╠🎃〘Gn: (NamaGroup)〙
+╠🎃〘Tag all〙
+╠🎃〘Recover〙
+╠🎃〘Cancel〙
+╠🎃〘Cancelall〙
+╠🎃〘Gcreator〙
+╠🎃〘Ginfo〙
+╠🎃〘Gurl〙
+╠🎃〘List group〙
+╠🎃〘Pict group: (NamaGroup)〙
+╠🎃〘Spam: (Text)〙
+╠🎃〘Add all〙
+╠🎃〘Kick: (Mid)〙
+╠🎃〘Invite: (Mid)〙
+╠🎃〘Invite〙
+╠🎃〘Memlist〙
+╠🎃〘Getgroup image〙
+╠🎃〘Urlgroup Image〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
-tjia="u14f64e139a3817afaabe27d237afb36b"
+tjia="u356f8ebbaf6486ff619126c45910489a"
 
 setMessage ="""
 ╔═════════════════════════
 ║              ☆☞ S E T ☜☆
 ╠═════════════════════════
-╠➩〘Sambutan on/off〙
-╠➩〘Mimic on/off〙
-╠➩〘Url on/off〙
-╠➩〘Alwaysread on/off〙
-╠➩〘Sider on/off〙
-╠➩〘Contact on/off〙
-╠➩〘Sticker on〙
-╠➩〘Simisimi on/off〙
+╠🎃〘Sambutan on/off〙
+╠🎃〘Mimic on/off〙
+╠🎃〘Url on/off〙
+╠🎃〘Alwaysread on/off〙
+╠🎃〘Sider on/off〙
+╠🎃〘Contact on/off〙
+╠🎃〘Sticker on〙
+╠🎃〘Simisimi on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -171,18 +171,18 @@ creatorMessage ="""
 ╔═════════════════════════
 ║         ☆☞ C R E A T O R ☜☆
 ╠═════════════════════════
-╠➩〘Crash〙
-╠➩〘Kickall〙
-╠➩〘Bc: (Text)〙
-╠➩〘Join group: (NamaGroup〙
-╠➩〘Leave group: (NamaGroup〙
-╠➩〘Leave all group〙
-╠➩〘Tag on/off〙
-╠➩〘Bot restart〙
-╠➩〘Turn off〙
+╠🎃〘Crash〙
+╠🎃〘Kickall〙
+╠🎃〘Bc: (Text)〙
+╠🎃〘Join group: (NamaGroup〙
+╠🎃〘Leave group: (NamaGroup〙
+╠🎃〘Leave all group〙
+╠🎃〘Tag on/off〙
+╠🎃〘Bot restart〙
+╠🎃〘Turn off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -190,40 +190,40 @@ adminMessage ="""
 ╔═════════════════════════
 ║            ☆☞ A D M I N ☜☆
 ╠═════════════════════════
-╠➩〘Allprotect on/off〙
-╠➩〘Ban〙
-╠➩〘Unban〙
-╠➩〘Ban @〙
-╠➩〘Unban @〙
-╠➩〘Ban list〙
-╠➩〘Clear ban〙
-╠➩〘Kill〙
-╠➩〘Kick @〙
-╠➩〘Set member: (Jumblah)〙
-╠➩〘Ban group: (NamaGroup〙
-╠➩〘Del ban: (NamaGroup〙
-╠➩〘List ban〙
-╠➩〘Kill ban〙
-╠➩〘Glist〙
-╠➩〘Glistmid〙
-╠➩〘Details group: (Gid)〙
-╠➩〘Cancel invite: (Gid)〙
-╠➩〘Invitemeto: (Gid)〙
-╠➩〘Acc invite〙
-╠➩〘Removechat〙
-╠➩〘Qr on/off〙
-╠➩〘Autokick on/off〙
-╠➩〘Autocancel on/off〙
-╠➩〘Invitepro on/off〙
-╠➩〘Join on/off〙
-╠➩〘Joincancel on/off〙
-╠➩〘Respon1 on/off〙
-╠➩〘Respon2 on/off〙
-╠➩〘Respon3 on/off〙
-╠➩〘Responkick on/off〙
+╠🎃〘Allprotect on/off〙
+╠🎃〘Ban〙
+╠🎃〘Unban〙
+╠🎃〘Ban @〙
+╠🎃〘Unban @〙
+╠🎃〘Ban list〙
+╠🎃〘Clear ban〙
+╠🎃〘Kill〙
+╠🎃〘Kick @〙
+╠🎃〘Set member: (Jumblah)〙
+╠🎃〘Ban group: (NamaGroup〙
+╠🎃〘Del ban: (NamaGroup〙
+╠🎃〘List ban〙
+╠🎃〘Kill ban〙
+╠🎃〘Glist〙
+╠🎃〘Glistmid〙
+╠🎃〘Details group: (Gid)〙
+╠🎃〘Cancel invite: (Gid)〙
+╠🎃〘Invitemeto: (Gid)〙
+╠🎃〘Acc invite〙
+╠🎃〘Removechat〙
+╠🎃〘Qr on/off〙
+╠🎃〘Autokick on/off〙
+╠🎃〘Autocancel on/off〙
+╠🎃〘Invitepro on/off〙
+╠🎃〘Join on/off〙
+╠🎃〘Joincancel on/off〙
+╠🎃〘Respon1 on/off〙
+╠🎃〘Respon2 on/off〙
+╠🎃〘Respon3 on/off〙
+╠🎃〘Responkick on/off〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi 💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -231,21 +231,21 @@ helpMessage ="""
 ╔═════════════════════════
 ║              ☆☞ H E L P ☜☆
 ╠═════════════════════════
-╠➩〘Help self〙
-╠➩〘Help bot〙
-╠➩〘Help group〙
-╠➩〘Help set〙
-╠➩〘Help media〙
-╠➩〘Help admin〙
-╠➩〘Help creator〙
-╠➩〘Owner〙
-╠➩〘Pap owner〙
-╠➩〘Speed〙
-╠➩〘Speed test〙
-╠➩〘Status〙
+╠💍〘Help self〙
+╠💍〘Help bot〙
+╠💍〘Help group〙
+╠💍〘Help set〙
+╠💍〘Help media〙
+╠💍〘Help admin〙
+╠💍〘Help creator〙
+╠💍〘Owner〙
+╠💍〘Pap owner〙
+╠💍〘Speed〙
+╠💍〘Speed test〙
+╠💍〘Status〙
 ╠═════════════════════════
-║             💠 By : Nadya 💠
-║    〽️ line.me/ti/p/~nad_nad. 〽️
+║             💘 By : Yogi💘
+║    〽️ line.me/ti/p/~yogi_jenonk
 ╚═════════════════════════
 """
 
@@ -253,8 +253,8 @@ helpMessage ="""
 KAC=[nadya]
 mid = nadya.getProfile().mid
 Bots=[mid]
-Creator=["u14f64e139a3817afaabe27d237afb36b"]
-admin=["u14f64e139a3817afaabe27d237afb36b"]
+Creator=["u356f8ebbaf6486ff619126c45910489a"]
+admin=["u356f8ebbaf6486ff619126c45910489a"]
 
 contact = nadya.getProfile()
 backup1 = nadya.getProfile()
@@ -287,7 +287,7 @@ wait = {
     'sticker':False,  
     'timeline':True,
     "Timeline":True,
-    "comment":"Bot Auto Like ©By : Nadya\nContact Me : 👉 line.me/ti/p/~nad_nad.",    
+    "comment":"Bot Auto Like ©By : Yogi\nContact Me : 👉 line.me/ti/p/~yogi_jenonk",    
     "commentOn":True,
     "commentBlack":{},
     "message":"Thx For Add Me (^_^)\nInvite Me To Your Group ヘ(^_^)ヘ",    
@@ -575,15 +575,15 @@ def bot(op):
                                 if " " in Name:
                                     nick = Name.split(' ')
                                     if len(nick) == 2:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgintip Aja Niih. . .\nChat Kek Idiih (-__-)   ")
+                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgintip Aja Niih kerjaannya. . .\nChat Kek Idiih (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                     else:
-                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi Penonton. . .\nChat Napa (-__-)   ")
+                                        nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nBetah Banget Jadi tukang minyak. . .\nChat Napa (-__-)   ")
                                         time.sleep(0.2)
                                         summon(op.param1,[op.param2])
                                 else:
-                                    nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip Aja???\nSini Gabung Chat...   ")
+                                    nadya.sendText(op.param1, "Haii " + "☞ " + Name + " ☜" + "\nNgapain Kak Ngintip orang komplek???\nSini Gabung Chat...   ")
                                     time.sleep(0.2)
                                     summon(op.param1,[op.param2])
                         else:
@@ -857,7 +857,7 @@ def bot(op):
                  if wait["detectMention"] == True:
                      contact = nadya.getContact(msg.from_)
                      cName = contact.displayName
-                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                     balas = ["Dont Tag!! Lagi Sibuk",cName + " Ngapain Ngetag?",cName + " Nggak Usah Tag-Tag! Lagi Syuting","Dia Lagi Off", cName + " Kenapa Tag Saya?","Dia Lagi Tidur\nJangan Di Tag " + cName, "Jangan Suka Tag Gua " + cName, "Kamu Siapa " + cName + "?", "Ada Perlu Apa " + cName + "?","Woii " + cName + " Jangan Ngetag, Riibut!"]
                      ret_ = random.choice(balas)
                      name = re.findall(r'@(\w+)', msg.text)
                      mention = ast.literal_eval(msg.contentMetadata['MENTION'])
@@ -871,7 +871,7 @@ def bot(op):
                  if wait["detectMention2"] == True:          
                     contact = nadya.getContact(msg.from_)
                     cName = contact.displayName
-                    balas = ["Sekali lagi nge tag gw sumpahin jomblo seumur hidup!","Nggak Usah Tag-Tag! Kalo Penting Langsung Pc Aja","Woii " + cName + " Jangan Ngetag, Riibut!"]
+                    balas = ["Sekali lagi nge tag gw sumpahin jempol kriting!","Nggak Usah Tag-Tag! gw lagi ga mau di ganggu","Woii " + cName + " Jangan Ngetag, Riibut!"]
                     ret_ = random.choice(balas)
                     name = re.findall(r'@(\w+)', msg.text)
                     mention = ast.literal_eval(msg.contentMetadata['MENTION'])
